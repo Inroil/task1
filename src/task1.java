@@ -1,11 +1,10 @@
 
 
-
 public class task1 {
     public static void main(String[] args) {
         byte a = 3;
         short b = 5;
-        char c = 'b';
+        char c = 10;
         int d = 15;
         long e = 20L;
         float f = 13.7f;
@@ -33,7 +32,7 @@ public class task1 {
 
     static String num(int a){
         if (a >= 0)
-            return "Число положительное";
+           return "Число положительное";
         else return "Число отрицательное";
     }
 
@@ -50,7 +49,11 @@ public class task1 {
     static String year(int a){
         if ((a % 4 == 0 && a != 100) || a % 400 == 0)
             return a + " - это високосный год.";
-        else return a + " - это не високосный год.";
+            else return a + " - это не високосный год.";
     }
+
+   // void myMethod(int a, String b) {}  это две разные сигнатуры одного метода.
+   // void myMethod(String b, int a) {}
+
 
 }
