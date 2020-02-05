@@ -4,7 +4,7 @@ public class task1 {
     public static void main(String[] args) {
         byte a = 3;
         short b = 5;
-        char c = 'b';
+        char c = 10;
         int d = 15;
         long e = 20L;
         float f = 13.7f;
